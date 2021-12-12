@@ -1,0 +1,88 @@
+.inline2{
+    margin: 4px;
+}
+input{
+    background: #ffffff;
+    line-height: 50px;
+    border-radius: 5px;
+    padding: 0 22px;
+    font-size: 2em;
+    color: #555555;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    font-size: 1em;
+}
+textarea{
+    background: #ffffff;
+    max-width: calc(98%-12px);
+    width: 95%;
+    padding: 18px 22px;
+    font-size: 1em;
+    color: #555555;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    resize: none;
+}
+select{
+    line-height: 50px;
+    padding: 14px 22px;
+    color: #555555;
+    font-size: 1.2em;
+    width: calc(50%-10px);
+    border: none;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 1.4em;
+    margin: 0.5em 4px;
+}
+h5{
+    font-size: 1em;
+    text-align: right;
+    display: inline-block;
+    margin: 0.5em 4px;
+    width: calc(50% -10px);
+
+}
+.head{
+    float: left;
+    margin-top: 70px;
+}
+.inline{
+    display: inline;
+    width: calc(50%-54px);
+}
+body{
+    background-color: darkcyan;
+    margin-top: 40px;
+    min-height: calc(100vh -48px);
+}
+.container_form{
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #ffffff;
+    max-width: 50vw;
+    margin: auto;
+}
+hr{
+    border-top: 1px solid #555555;
+}
+input[type="submit"]{
+    background-color: grey;
+}
+input[type="submit"]:hover{
+    background-color: black;
+}
+input[type="reset"]{
+    background-color: grey;
+}
+input[type="reset"]:hover{
+    background-color: black;
+}

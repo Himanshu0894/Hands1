@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <h2 class="heading">Geekstar Apply Form</h2>
+  <div class="container_form">
+    <form>
+      <h2>Personal Info :-</h2>
+      <input type="text" class="inline" name="f_name" placeholder="first_name" required />
+      <input type="text" class="inline" name="l_name" placeholder="last_name" required />
+      <br />
+      <br />
+      <input type="email" class="inline" name="mail" placeholder="enter your mail" autocomplete="off" required />
+      <input type="tel" class="inline" name="phone" placeholder="enter your Number" required
+        pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" title="please enter in the format 1111-111-111" />
+      <br />
+      <input type="date" class="inline" name="date_of_birth" max="2022-01-01" />
+      <select class="inline" name="Gender">
+        <option selected disabled>Select Your Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+      <textarea name="address" class="inline" placeholder="Enter your Address"></textarea>
+      <hr />
+      <h3 class="heading">Education Info:</h3>
+      <select name="Degree" class="inline">
+        <option selected disabled>Select Degree:</option>
+        <optgroup label="Bachelors">
+          <option>B.Tech</option>
+          <option>B.E</option>
+          <option>B.Sc</option>
+        </optgroup>
+        <optgroup label="Masters">
+          <option>M.Tech</option>
+          <option>M.E</option>
+          <option>M.Sc</option>
+        </optgroup>
+      </select>
+      <input type="text" name="college" class="inline" placeholder="Collegename" />
+      <input type="text" name="Graduation_year" class="inline" placeholder="Year of Graduation" min="2010" max="2022" />
+      <input type="text" name="Percentage" class="inline" placeholder="Percentage" min="0" max="100" step="0.1" />
+      <h5 class="head">Upload Your Resume :</h5>
+      <input type="file" class="inline2" />
+      <hr />
+      <h4 class="heading">Course Details</h4>
+      <input type="radio" class="inline3" name="Coursetype"> <span class="heading">Java Fundamentals</span>
+      &emsp;&emsp;
+      <input type="radio" class="inline3" name="Coursetype"><span class="heading">Advanced</span>
+      <br/>
+      <br/>
+      <input type="checkbox" class="inline3" name="coursename"><span class="heading">Web Fundamentals</span>
+      &emsp;&emsp;
+      <input type="checkbox" class="inline3" name="coursename"><span class="heading">Dsa Fundamentals</span>
+      <hr/>
+     <input type="submit" value="Apply For Admission"/>
+     <input type="reset"/>
+
+    </form>
+  </div>
+</body>
+
+</html>
